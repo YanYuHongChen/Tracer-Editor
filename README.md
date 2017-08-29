@@ -10,7 +10,7 @@ The scene file make up with an obj file which stores geometry data and a .sce fi
 
 However the editor code is independent of the renderer which makes it may be used in other code.
 
-The editor based on dear imgui and d3d11 contains so many basic functions but the code is somehow messy. Main code is in `EditorModel.h/EditorModel.cpp`. It still works in progress.
+The editor based on dear imgui and d3d11 contains so many basic functions but the code is somehow messy. I am working on event-driven UI. Main code is in `EditorModel.h/EditorModel.cpp`. Still works in progress.
 
 # Editor 
 
