@@ -10,6 +10,8 @@ The scene file make up with an obj file which stores geometry data and a .sce fi
 
 However the editor code is independent of the renderer which makes it may be used in other code.
 
+The editor is based on dear imgui and contains so many basic functions but the code is some messy. It still works in progress.
+
 # Editor 
 
 ![](https://github.com/wubugui/FXXKTracer/raw/master/pic/editor1.png)
