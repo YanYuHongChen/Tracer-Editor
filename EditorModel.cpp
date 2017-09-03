@@ -627,6 +627,7 @@ void Mesh::release_data()
 
 void EditorSceneView::init(Direct3D11Renderer* d3d11_renderer, ID3D11RenderTargetView* b)
 {
+  focus_distance = 0.f;
   scene_camera = new RBCamera();
   scene_camera->set_position(0, 0, 0);
   RBVector4 position(0, 0, -1);
@@ -980,6 +981,7 @@ void EditorSceneView::update(f32 dt)
     if (hp)
     {
       RBVector3 sp = ray.o + ray.d*isc.dist_;
+      focus_distance = isc.dist_;
 	  if (hit_sphere)
 		hit_sphere->local_2_world.set_translation(sp);
       if (selected_mesh_instance)
@@ -1001,6 +1003,10 @@ void EditorSceneView::update(f32 dt)
 bool EditorSceneView::gui_update(f32 dt)
 {
   static f32 vd[3] = {0};
+
+  ImGui::Begin("Select Object");
+  ImGui::LabelText("distance", "%f", focus_distance);
+  ImGui::End();
 
   bool skip = false;
   if (ImGui::BeginMainMenuBar())
@@ -1981,8 +1987,8 @@ void EditorSceneView::on_set_camera_gui()
   if (ImGui::Button("4:3")) scene_camera->_ratio = 4.f/3.f;
   if (ImGui::Button("1:1")) scene_camera->_ratio = 1.f;
 
-
-
+  ImGui::InputFloat("Object distance", &scene_camera->od);
+  ImGui::SliderFloat("Aperture Raduis", &scene_camera->aperture_raduis,0.01f,10.8f);
   //ImGui::End();
 }
 

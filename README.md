@@ -20,18 +20,21 @@ The editor based on dear imgui and d3d11 contains so many basic functions but th
 
 # "Tracer" Gallery
 
+![](https://github.com/wubugui/FXXKTracer/raw/master/pic/newpic/cup1.png)
+![](https://github.com/wubugui/FXXKTracer/raw/master/pic/newpic/room1.png)
+![](https://github.com/wubugui/FXXKTracer/raw/master/pic/newpic/cup2.png)
 ![](https://github.com/wubugui/FXXKTracer/raw/master/pic/mat1.png)
 ![](https://github.com/wubugui/FXXKTracer/raw/master/pic/shelf.png)
+![](https://github.com/wubugui/FXXKTracer/raw/master/pic/newpic/sppm_3709.png)
 ![](https://github.com/wubugui/FXXKTracer/raw/master/pic/ocean_166666.png)
 ![](https://github.com/wubugui/FXXKTracer/raw/master/pic/newpic/_grass2.png)
-![](https://github.com/wubugui/FXXKTracer/raw/master/pic/newpic/_ball.png)
 ![](https://github.com/wubugui/FXXKTracer/raw/master/pic/newpic/_nuonv.png)
 ![](https://github.com/wubugui/FXXKTracer/raw/master/pic/newpic/_shinei.png)
 ![](https://github.com/wubugui/FXXKTracer/raw/master/pic/newpic/girl111.png)
 ![](https://github.com/wubugui/FXXKTracer/raw/master/pic/newpic/silk.png)
 ![](https://github.com/wubugui/FXXKTracer/raw/master/pic/newpic/long2.png)
 ![](https://github.com/wubugui/FXXKTracer/raw/master/pic/newpic/disney.png)
-
+![](https://github.com/wubugui/FXXKTracer/raw/master/pic/newpic/area.png)
 
 # Reference
 

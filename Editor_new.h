@@ -1,13 +1,14 @@
 #pragma once
+#if 0
 #include "FastApp.h"
 #include "RHID3D11.h"
 #include "D3D11FastRenderer.h"
 #include <vector>
 
-class EditorApp : public FastApp
+class EditorApp_new : public FastApp
 {
 public:
-  WIPOBJECT(EditorApp, FastApp);
+  WIPOBJECT(EditorApp_new, FastApp);
   virtual bool preinit() override;
   virtual bool init() override;
   virtual void update(f32 dt) override;
@@ -15,19 +16,16 @@ public:
   virtual void ter() override;
   virtual void postter() override;
 
-  EditorApp(class AppBase* app);
-  virtual ~EditorApp();
-  EditorApp(const EditorApp& o) = delete;
-  EditorApp& operator=(const EditorApp& o) = delete;
+  EditorApp_new(class AppBase* app);
+  virtual ~EditorApp_new();
+  EditorApp_new(const EditorApp_new& o) = delete;
+  EditorApp_new& operator=(const EditorApp_new& o) = delete;
 
 protected:
 
-  class EditorSceneView* scene_view;
+  class EditorView_new* scene_view;
+  class EditorModel_new* scene_model;
 
-
-
-  void load_models_generate_buffer(const char* filename);
-  void load_assets();
   void create_rhires();
   void handle_input(f32 dt);
   void proccess_imgui(f32 dt);
@@ -36,15 +34,5 @@ protected:
   FD3D11DynamicRHI* _rhi;
   Direct3D11Renderer* _d3d11_renderer;
 
-
-
-
-  class IMButton* imbt;
-  class A* a;
-  class A* a1;
-  class B* b;
-  class IMMainMenuBar* main_bar;
-  class IMCheckBox* cb;
-
-  string_hash component_update;
 };
+#endif

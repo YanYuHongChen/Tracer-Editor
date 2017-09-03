@@ -1351,6 +1351,6 @@ public:
 
   ImGuiDock::Dockspace dockspace;
   ImGuiDock::Dockspace right_window;
-
+  f32 focus_distance;
   bool open_left_editors = false;
 };

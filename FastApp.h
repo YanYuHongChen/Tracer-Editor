@@ -1,9 +1,11 @@
 #pragma once 
 #include "platform/RBBasedata.h"
+#include "WIPObject.h"
 
-class FastApp
+class FastApp : public WIPObject
 {
 public:
+  WIPOBJECT(FastApp,WIPObject);
 	//before system 
 	virtual bool preinit() = 0;
 	//after RHI
