@@ -25,6 +25,7 @@ The editor based on dear imgui and d3d11 contains so many basic functions but th
 ![](https://github.com/wubugui/FXXKTracer/raw/master/pic/newpic/cup2.png)
 ![](https://github.com/wubugui/FXXKTracer/raw/master/pic/newpic/111.png)
 ![](https://github.com/wubugui/FXXKTracer/raw/master/pic/shelf.png)
+![](https://github.com/wubugui/FXXKTracer/raw/master/pic/newpic/12.png)
 ![](https://github.com/wubugui/FXXKTracer/raw/master/pic/newpic/sppm_3709.png)
 ![](https://github.com/wubugui/FXXKTracer/raw/master/pic/ocean_166666.png)
 ![](https://github.com/wubugui/FXXKTracer/raw/master/pic/newpic/_grass2.png)
