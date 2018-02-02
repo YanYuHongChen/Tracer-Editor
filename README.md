@@ -6,11 +6,11 @@ Tracer Material Editor
 It is a material editor and previewer for my "Tracer" physically based renderer which is based on [dear imgui](https://github.com/ocornut/imgui).
 The scene file make up with an obj file which stores geometry data and a .sce file which stores material data.
 
-"Tracer" is my first physically based renderer but I am not ready to share it because the suffering from so many drawbacks. I am now rewriting it for a better architecture(try to implement the architecture which is mentioned in [1]), performance and more production features which may be make it more production like.
+"Tracer" is my first physically based renderer but I am not ready to share it because the suffering from so many drawbacks. I am now rewriting it for a better architecture(try to implement the architecture which is mentioned in [1]), performance and more production features which may make it more production like.
 
 However the editor code is independent of the renderer which makes it may be used in other code.
 
-The editor based on dear imgui and d3d11 contains so many basic functions but the code is somehow messy. I am working on event-driven UI. Main code is in `EditorModel.h/EditorModel.cpp`. Still works in progress.
+The editor based on dear imgui and d3d11 contains so many basic functions but the code is somehow messy. Main code is in `EditorModel.h/EditorModel.cpp`. Still working in progress.
 
 # Editor 
 
